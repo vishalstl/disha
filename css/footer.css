@@ -1,0 +1,18 @@
+.open-quote::before{
+    content: "\201C";
+    font-weight: 970;
+    margin-left: 47%;
+    font-size: 150px;
+    font-family: "poppins";
+    color: #17AE1E;
+    position: absolute;
+}
+
+.close-quote::after{
+    content: "\201d";
+    font-weight: 970;
+    margin-left: 47%;
+    font-size: 150px;
+    font-family: "poppins";
+    color: #17AE1E;
+}

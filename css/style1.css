@@ -1,0 +1,166 @@
+ .first {
+    background-image: url(../images/Banner.png);
+    height: 950px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first img{
+  object-fit: contain;
+    margin-top: 30px;
+     margin-left: 191px; 
+     height: 120px;
+     width: 370px;
+}
+.first button{
+    border-radius: 26px;
+    margin-top: 65px;
+    margin-right: 195px;
+    width: 145px;
+    height: 50px;
+      background-color: #08C450;
+      color: #F7F7F7; 
+      border: none; 
+      float: right;
+     ;
+  
+   
+}
+
+.first div{
+    margin-top: 200px;
+    margin-left: 202px;
+    width: 1200px;
+    height: 326px;
+    text-align: left;
+    opacity: 1;
+}
+
+.first div h1{
+    color: #08C450; 
+    font-weight: 990;
+    font-size: 80px;
+  }
+
+.first div p{
+    font-size: 40px;
+    font-weight: 500;
+    /* font: normal normal medium 50px/70px Montserrat; */
+     color:white ;
+}
+
+.image_placeholder{
+    background: url('../images/imageplaceholder.jpeg') no-repeat;
+    width:400px;
+    height:400px;
+    background-size: cover;
+  }
+
+
+  
+
+
+  
+    .swiper-pagination {
+        position: absolute;
+       height: 250px;
+        width: 200px !important;
+        left: 50px !important;
+        margin: 0;
+    }
+
+  .swiper-pagination-bullet {
+    padding: 10px 10px;
+	border-radius: 0;
+	width: auto;
+	
+	text-align: center;
+	line-height: 30px;
+	font-size: 10px;
+	
+  }
+  .mySwiper .swiper-pagination-bullet{
+    background-size: cover;
+    border-radius: initial;
+    border-radius: 10px;
+    background-color:#16AF1D;
+    bottom: 20px;
+    color: #dde1e5;
+    
+}
+  
+  .swiper-pagination-bullet-active {
+    
+   
+    color:#f5faf6;
+	background: #f7f9f7;
+    
+  }
+ 
+
+
+
+
+
+
+
+
+
+
+  /* 2nd */
+
+
+
+  .swiper-pagination1 {
+    position: absolute;
+   
+    width: 200px !important;
+    left: 260px !important;
+    margin: 0;
+}
+
+.swiper-pagination-bullet {
+padding: 10px 10px;
+border-radius: 0;
+width: auto;
+
+text-align: center;
+line-height: 30px;
+font-size: 10px;
+
+}
+.mySwiper1 .swiper-pagination-bullet{
+background-size: cover;
+border-radius: initial;
+border-radius: 10px;
+background-color: #fff;
+bottom: 20px;
+
+}
+
+.swiper-pagination1-bullet-active {
+
+
+color:#fff;
+background: #dde1e5;
+
+}
+ 
+  /* //end swiper */
+
+
+
+  /* //footer */
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .footer-hr{
+    color: #F7F7F7;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 60px;
+}
